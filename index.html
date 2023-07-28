@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <link href="https://fonts.googleapis.com/css?family=Copse|Caprasimo&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="jeopardy.css">
+ 
+
+  
+</head>
+<body>
+
+  <div id="titlepage">
+      <h1>JEOPARDY</h1>
+        <button id="btn">Start Game</button>
+        <button id="btn2">Restart Game</button>
+        
+  </div>
+  <div id="container">
+      <div id="spinner"></div>
+      <table id="gameboard">
+      <thead id="thead">
+            <tr id="tableHeaderRow">
+                  <td class="category" id="cat1"></td>
+                  <td class="category" id="cat2"></td>
+                  <td class="category" id="cat3"></td>
+                  <td class="category" id="cat4"></td>
+                  <td class="category" id="cat5"></td>
+                  <td class="category" id="cat6"></td>
+            </tr>
+      </thead>
+        <tbody>
+            <tr>
+                  <td class="question" id="quest1-cat1">?</td>
+                  <td class="question" id="quest1-cat2">?</td>
+                  <td class="question" id="quest1-cat3">?</td>
+                  <td class="question" id="quest1-cat4">?</td>
+                  <td class="question" id="quest1-cat5">?</td>
+                  <td class="question" id="quest1-cat6">?</td>
+            </tr>
+            <tr>
+                  <td class="question" id="quest2-cat1">?</td>
+                  <td class="question" id="quest2-cat2">?</td>
+                  <td class="question" id="quest2-cat3">?</td>
+                  <td class="question" id="quest2-cat4">?</td>
+                  <td class="question" id="quest2-cat5">?</td>
+                  <td class="question" id="quest2-cat6">?</td>
+            </tr>
+            <tr>
+                  <td class="question" id="quest3-cat1">?</td>
+                  <td class="question" id="quest3-cat2">?</td>
+                  <td class="question" id="quest3-cat3">?</td>
+                  <td class="question" id="quest3-cat4">?</td>
+                  <td class="question" id="quest3-cat5">?</td>
+                  <td class="question" id="quest3-cat6">?</td>
+            </tr>
+            <tr>
+                  <td class="question" id="quest4-cat1">?</td>
+                  <td class="question" id="quest4-cat2">?</td>
+                  <td class="question" id="quest4-cat3">?</td>
+                  <td class="question" id="quest4-cat4">?</td>
+                  <td class="question" id="quest4-cat5">?</td>
+                  <td class="question" id="quest4-cat6">?</td>
+            </tr>
+            <tr>
+                  <td class="question" id="quest5-cat1">?</td>
+                  <td class="question" id="quest5-cat2">?</td>
+                  <td class="question" id="quest5-cat3">?</td>
+                  <td class="question" id="quest5-cat4">?</td>
+                  <td class="question" id="quest5-cat5">?</td>
+                  <td class="question" id="quest5-cat6">?</td>
+            </tr>
+        </tbody>
+      </table>
+  </div>
+
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/lodash"></script>
+<script src="jeopardy.js"></script>
+
+</body>
+</html>
